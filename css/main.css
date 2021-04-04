@@ -10,6 +10,7 @@ html {
 
 header img {
   width: 2rem;
+  align-self: flex-start;
 }
 
 header {
@@ -17,6 +18,11 @@ header {
   justify-content: space-between;
   margin: 0;
   background-color: #e2e2e2;
+  align-items: stretch;
+}
+
+header p {
+
 }
 
 header nav ul {
