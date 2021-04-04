@@ -8,21 +8,26 @@ html {
   box-sizing: inherit;
 }
 
-header img {
-  width: 2rem;
-  align-self: flex-start;
+body {
+margin: 0;
 }
 
 header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 0;
   background-color: #e2e2e2;
   align-items: stretch;
 }
 
-header p {
+header h1 {
+  display: flex;
+}
 
+header p {
+display: flex;
+align-self: center;
 }
 
 header nav ul {
@@ -43,4 +48,9 @@ nav a {
 
 nav a:hover {
   color: #fff;
+}
+
+header img {
+  width: 2rem;
+  align-self: flex-start;
 }
